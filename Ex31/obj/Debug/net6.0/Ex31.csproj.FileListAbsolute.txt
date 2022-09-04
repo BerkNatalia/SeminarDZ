@@ -1,0 +1,15 @@
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.csproj.AssemblyReference.cache
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.AssemblyInfoInputs.cache
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.AssemblyInfo.cs
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.csproj.CoreCompileInputs.cache
+D:\Desktop\Seminar\Examples\Ex31\bin\Debug\net6.0\Ex31.exe
+D:\Desktop\Seminar\Examples\Ex31\bin\Debug\net6.0\Ex31.deps.json
+D:\Desktop\Seminar\Examples\Ex31\bin\Debug\net6.0\Ex31.runtimeconfig.json
+D:\Desktop\Seminar\Examples\Ex31\bin\Debug\net6.0\Ex31.dll
+D:\Desktop\Seminar\Examples\Ex31\bin\Debug\net6.0\Ex31.pdb
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.dll
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\refint\Ex31.dll
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.pdb
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\Ex31.genruntimeconfig.cache
+D:\Desktop\Seminar\Examples\Ex31\obj\Debug\net6.0\ref\Ex31.dll
