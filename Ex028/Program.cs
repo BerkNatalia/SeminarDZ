@@ -13,16 +13,18 @@ int[,] array = new int[m, n];
 PrintInterval(m, n);
 void PrintInterval(int m, int n)
 {
-  int start = m;
-  int end = n;
-  if(m > n)
-  {
-	  start = n;
-	  end = m;
-  }
-  for(int i = start; i <= end; i++)
-  {
-	  Console.Write($"{i} ");
-  }
+    if (m > n)
+    {
+        Console.WriteLine();
+        return;
+    }    
+    if (m == n)
+            Console.Write($"{m}");
+        else
+        Console.Write($"{m}, ");
+        
+   PrintInterval(m + 1, n);
+   return;
 }
+
 Console.WriteLine();
