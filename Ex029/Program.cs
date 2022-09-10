@@ -8,18 +8,13 @@ Console.Write("Введите m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите n: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int[,] array = new int[m, n];
 
 Console.WriteLine(PrintSumm(m, n));
+
 int PrintSumm(int m, int n)
 {
-  int start = m;
-  int end = n;
-  if(m > n)
-  {
-	  start = n;
-    end = m;
-  }
-  return (end + start)*(end - start + 1)/2;
+  if (m == n)
+        return m;
+    return m + PrintSumm(m + 1, n);
 }
 Console.WriteLine();
