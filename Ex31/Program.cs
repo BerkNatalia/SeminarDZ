@@ -8,19 +8,16 @@ Console.Write("Введите m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите n: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int[,] array = new int[m, n];
 
-int exponentiation = Exponentiation(m, n);
-Console.WriteLine("Ответ: " + exponentiation);
+Power(m, n);
+Console.WriteLine("Ответ: " + Power(m, n));
 
-int Exponentiation(int m, int n)
+int Power(int m, int n)
 {
-  int result = 1;
-  for(int i=1; i <= n; i++)
-  {
-    result = result * m;
-  }
-    return result;
+    if(n == 1) return m;
+    if(n < 0) return Power( 1 / m, -n);
+        return m * Power(m, n - 1);
+    return Power(m * m, n / 2);
 }
 
-Console.WriteLine();
+ Console.WriteLine();
